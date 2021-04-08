@@ -8,7 +8,7 @@ document.getElementById('repeater').innerHTML = `Repeater: ${repeater}`; // disp
 function repeat(alphanumeric, repeater) {
     while (repeater >= 1) { // while condition is true do whatever is in the brackets
         str += alphanumeric; // str = str + Alphanumeric
-        repeater--; // decrement the repeater (Alphanumeric - 1)
+        repeater--; // decrement the repeater (repeater - 1)
         /*
             i.e Alphanumeric is 5 && repeater is 5
             first iteration '' + 5 = '5' (4 iterations ;eft)
